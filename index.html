@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Mentalista</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">O Mentalista</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        <div id="game-container">
+            <label for="guessInput">Adivinhe o numero entre 0 a 1000 em que eu estou pensando:</label>
+            <input type="number" id="guessInput" min="0" max="1000">
+            <button id="guessBottom" onclick="makeGuess()">Dar Palpite</button>
+            <button id="newGameBottom" onclick="newGame()">Novo Jogo</button>
+            <div id="result"></div>
+            <div id="attempts">Número de tentativas: <span id="attemptCount">0</span></div>
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            </a>
+    </div>
+    <footer>
+        <h4>Feito por monteiroma</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.titulo{
+    color: #ffffff;
+}
+
+.page-title {
+    color: #ff0000;
+}
+
+#game-container {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#attempts {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color:transparent;
+    width: 100%; 
+    position: absolute;
+    bottom: 0; 
+    color: #ffffff;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button#newGameBottom {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+}
+
+button#newGameBottom:hover {
+    background-color: #00ff0d;
+}
+
+button#guessBottom{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+}
+
+input#guessInput {
+    padding: 3px;
+    margin-top: 10px;
+    width: 150px; 
+}
+
