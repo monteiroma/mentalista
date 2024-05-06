@@ -6,6 +6,6 @@ numero de tentativas de palpites para saber qual chance esta, afim de ficar em t
 
 Tecnologias usadas:
 
-    HTML
-    CSS
-    JavaScript
+- HTML
+- CSS
+- JavaScript
